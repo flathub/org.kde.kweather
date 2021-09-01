@@ -22,8 +22,8 @@
             "sources": [ 
                 { 
                     "type": "archive", 
-                    "url": "https://download.kde.org/stable/kweathercore/0.4/kweathercore-0.4.tar.xz", 
-                    "sha256": "47aa124c045d159572d2a8a589f8fc77ee7aedcf7a0c7256a5e3f6f42bb9b195" 
+                    "url": "https://download.kde.org/stable/kweathercore/0.5/kweathercore-0.5.tar.xz", 
+                    "sha256": "162c69f758f2e9b1c1ef2b8d0c54f3cee439b4171ef32632df410411d30d4d6f" 
                 } 
             ]
         },
