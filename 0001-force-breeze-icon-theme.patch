@@ -1,5 +1,5 @@
 diff --git a/src/main.cpp b/src/main.cpp
-index e326a44..5d23485 100644
+index f77c349..0e8702d 100644
 --- a/src/main.cpp
 +++ b/src/main.cpp
 @@ -12,6 +12,7 @@
@@ -10,11 +10,11 @@ index e326a44..5d23485 100644
  
  #ifdef Q_OS_ANDROID
  #include <QGuiApplication>
-@@ -48,6 +49,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
-     if(qEnvironmentVariableIsEmpty("QT_QUICK_CONTROLS_STYLE")) {
-         QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
-     }
+@@ -39,6 +40,7 @@ class AbstractDailyWeatherForecast;
+ Q_DECL_EXPORT int main(int argc, char *argv[])
+ {
+     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 +    QIcon::setThemeName(QStringLiteral("breeze"));
- #endif
-     QQmlApplicationEngine engine;
  
+ #ifdef Q_OS_ANDROID
+     QGuiApplication app(argc, argv);
