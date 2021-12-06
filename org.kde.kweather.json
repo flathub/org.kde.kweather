@@ -28,26 +28,14 @@
             ]
         },
         {
-            "name": "kquickcharts",
-            "buildsystem": "cmake-ninja",
-            "config-opts": [ "-DBUILD_TESTING=OFF", "-DCMAKE_BUILD_TYPE=Release" ],
-            "sources": [ 
-                { 
-                    "type": "archive", 
-                    "url": "https://download.kde.org/stable/frameworks/5.82/kquickcharts-5.82.0.tar.xz", 
-                    "sha256": "86c6cde106c786fe3908e67847f2cbbb0324b96f5589c1a10ed67654660ec7fb"
-                } 
-            ]
-        },
-        {
             "name": "kweather",
             "buildsystem": "cmake-ninja",
             "config-opts": [ "-DBUILD_TESTING=OFF", "-DCMAKE_BUILD_TYPE=RelWithDebInfo" ],
             "sources": [ 
                 { 
                     "type": "archive", 
-                    "url": "https://download.kde.org/stable/plasma-mobile/21.08/kweather-21.08.tar.xz", 
-                    "sha256": "c5c572b38d6e74e15998273fcff9438711b0f6f550fe23908156f3a934973f2c" 
+                    "url": "https://download.kde.org/stable/plasma-mobile/21.12/kweather-21.12.tar.xz", 
+                    "sha256": "f2e4db4833d4751401075be447261cfc8d5996b55d090144fd79e903678e3b80" 
                 },
                 {
                     "type": "patch",
