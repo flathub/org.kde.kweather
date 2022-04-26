@@ -35,7 +35,13 @@
                 { 
                     "type": "archive", 
                     "url": "https://download.kde.org/stable/plasma-mobile/22.04/kweather-22.04.tar.xz", 
-                    "sha256": "adace6873909ec5e65528580ec94059a52a3f290e21ba7cb686428df00a00001"
+                    "sha256": "adace6873909ec5e65528580ec94059a52a3f290e21ba7cb686428df00a00001",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 241424,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/plasma-mobile/$version/kweather-$version.tar.xz"
+                    }
                 },
                 {
                     "type": "patch",
