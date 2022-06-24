@@ -13,29 +13,34 @@
         "--device=dri",
         "--system-talk-name=org.freedesktop.GeoClue2"
     ],
-
     "modules": [
         {
             "name": "kweathercore",
-            "config-opts": [ "-DBUILD_TESTING=OFF", "-DCMAKE_BUILD_TYPE=RelWithDebInfo" ],
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            ],
             "buildsystem": "cmake-ninja",
-            "sources": [ 
-                { 
-                    "type": "archive", 
-                    "url": "https://download.kde.org/stable/kweathercore/0.5/kweathercore-0.5.tar.xz", 
-                    "sha256": "162c69f758f2e9b1c1ef2b8d0c54f3cee439b4171ef32632df410411d30d4d6f" 
-                } 
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/kweathercore/0.5/kweathercore-0.5.tar.xz",
+                    "sha256": "162c69f758f2e9b1c1ef2b8d0c54f3cee439b4171ef32632df410411d30d4d6f"
+                }
             ]
         },
         {
             "name": "kweather",
             "buildsystem": "cmake-ninja",
-            "config-opts": [ "-DBUILD_TESTING=OFF", "-DCMAKE_BUILD_TYPE=RelWithDebInfo" ],
-            "sources": [ 
-                { 
-                    "type": "archive", 
-                    "url": "https://download.kde.org/stable/plasma-mobile/22.04/kweather-22.04.tar.xz", 
-                    "sha256": "adace6873909ec5e65528580ec94059a52a3f290e21ba7cb686428df00a00001",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/plasma-mobile/22.06/kweather-22.06.tar.xz",
+                    "sha256": "f317d9a978e4cfab350fc0eda7bbe90315033eb6eec13d6c73e19bbb3fd78728",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 241424,
