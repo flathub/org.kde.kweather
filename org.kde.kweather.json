@@ -39,8 +39,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/22.06/kweather-22.06.tar.xz",
-                    "sha256": "f317d9a978e4cfab350fc0eda7bbe90315033eb6eec13d6c73e19bbb3fd78728",
+                    "url": "https://download.kde.org/stable/plasma-mobile/22.09/kweather-22.09.tar.xz",
+                    "sha256": "5f864f8f9ee8d17dc0647806c9237efd4df82ee31d022e80cf32e4e053317f7c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 241424,
