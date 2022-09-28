@@ -26,6 +26,17 @@
                     "type": "archive",
                     "url": "https://download.kde.org/stable/kweathercore/0.6/kweathercore-0.6.tar.xz",
                     "sha256": "67d6315b1ba1acca6222960f9d5059add728bcc5d09b02e511fc66ad97b6e24d"
+                },
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/unstable/kirigami-addons/0.3/kirigami-addons-0.3.tar.xz",
+                    "sha256": "946fd46f7453a2bb027f55fb29fc6a6d5ecdc8af25e049a8a01710d332195d77",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 242933,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/unstable/kirigami-addons/$version/kirigami-addons-$version.tar.xz"
+                    }
                 }
             ]
         },
