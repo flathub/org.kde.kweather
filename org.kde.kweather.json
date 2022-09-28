@@ -26,7 +26,17 @@
                     "type": "archive",
                     "url": "https://download.kde.org/stable/kweathercore/0.7/kweathercore-0.7.tar.xz",
                     "sha256": "04dde83ae543163735776dc50edab3510247d4825432840a78fade9b237a79fd"
-                },
+                }
+            ]
+        },
+        {
+            "name": "kirigami-addons",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            ],
+            "buildsystem": "cmake-ninja",
+            "sources": [
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/unstable/kirigami-addons/0.4/kirigami-addons-0.4.tar.xz",
