@@ -4,7 +4,6 @@
     "runtime-version": "5.15-21.08",
     "sdk": "org.kde.Sdk",
     "command": "kweather",
-    "rename-icon": "kweather",
     "finish-args": [
         "--share=ipc",
         "--share=network",
@@ -45,8 +44,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.5.tar.xz",
-                    "sha256": "1b1a4d65cfeabe5406e5d2837fe3f6c63ac60b7b72db2c957552c8b47108b9b3",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.6.tar.xz",
+                    "sha256": "2fc18d25ad684d5fec260b872c3320068290c59abab50e26a61811ca8bd5882f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
@@ -66,8 +65,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/22.09/kweather-22.09.tar.xz",
-                    "sha256": "5f864f8f9ee8d17dc0647806c9237efd4df82ee31d022e80cf32e4e053317f7c",
+                    "url": "https://download.kde.org/stable/plasma-mobile/22.11/kweather-22.11.tar.xz",
+                    "sha256": "b4d931e87dc9b2a54480de80634cc67d6d4cea03d29aae9e9279c3723d390c6b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 241424,
