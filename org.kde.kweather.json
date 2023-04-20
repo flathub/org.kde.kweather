@@ -65,13 +65,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/23.01.0/kweather-23.01.0.tar.xz",
-                    "sha256": "fae48fc7aa8fc2c0578c7d942326e021662ff0e9f3280f6ff78c2fd1bf448bc1",
+                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/kweather-23.04.0.tar.xz",
+                    "sha256": "30ddd8ec4066ef302fd5f1b25cf63e2cb5aabbd4ac289a73d1945ea0358f1c8c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 241424,
                         "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/plasma-mobile/$version/kweather-$version.tar.xz"
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kweather-$version.tar.xz"
                     }
                 },
                 {
