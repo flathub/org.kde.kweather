@@ -44,8 +44,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.8.0.tar.xz",
-                    "sha256": "3741a940fa688f53c7d9bdf607b1c6991f6d690e9ce826e8c76794336c594bcf",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.9.0.tar.xz",
+                    "sha256": "56d8073cd9797d4adf5a75f5dc0d2385fc2e896ab6e6106131a6f0d6a976d8a2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
@@ -65,8 +65,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.2/src/kweather-23.04.2.tar.xz",
-                    "sha256": "d35dc5a6da6c0c052b10169aa7a042b60d1afbb87394f9a4cface01785c89bd1",
+                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/kweather-23.04.3.tar.xz",
+                    "sha256": "962fd6d06fd0a71532941394650997e20250d8dc65b6e4efc3a5a6d49ea28784",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 241424,
