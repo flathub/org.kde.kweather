@@ -23,8 +23,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kweathercore/0.7/kweathercore-0.7.tar.xz",
-                    "sha256": "04dde83ae543163735776dc50edab3510247d4825432840a78fade9b237a79fd",
+                    "url": "https://download.kde.org/stable/kweathercore/0.8.0/kweathercore-0.8.0.tar.xz",
+                    "sha256": "9bcac13daf98705e2f0d5b06b21a1a8694962078fce1bf620dbbc364873a0efe",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 232018,
