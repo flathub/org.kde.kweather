@@ -1,20 +1,21 @@
 diff --git a/src/main.cpp b/src/main.cpp
-index f77c349..0e8702d 100644
+index 022620f..0c1866c 100644
 --- a/src/main.cpp
 +++ b/src/main.cpp
-@@ -12,6 +12,7 @@
+@@ -15,6 +15,7 @@
  #include <QQuickStyle>
  #include <QUrl>
  #include <QtQml>
 +#include <QIcon>
  
- #ifdef Q_OS_ANDROID
- #include <QGuiApplication>
-@@ -39,6 +40,7 @@ class AbstractDailyWeatherForecast;
+ #include <KAboutData>
+ #include <KConfig>
+@@ -30,6 +31,8 @@ class AbstractDailyWeatherForecast;
+ 
  Q_DECL_EXPORT int main(int argc, char *argv[])
  {
-     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 +    QIcon::setThemeName(QStringLiteral("breeze"));
++
+     // We always NEED QApplication, since we use QtCharts
+     QApplication app(argc, argv);
  
- #ifdef Q_OS_ANDROID
-     QGuiApplication app(argc, argv);
