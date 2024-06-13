@@ -86,8 +86,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.05.0/src/kweather-24.05.0.tar.xz",
-                    "sha256": "faff3add4005d04c338847ae9b7a1bc2e5c6d5f45b6f5a96ec806da91b9e4bbe",
+                    "url": "https://download.kde.org/stable/release-service/24.05.1/src/kweather-24.05.1.tar.xz",
+                    "sha256": "cba0ffe03ad48e8809a7e5f2560b109bc4de0db22f0b6b7a2a7f91210edef153",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 241424,
