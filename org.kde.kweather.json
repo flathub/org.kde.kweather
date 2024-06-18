@@ -44,8 +44,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/6.0.5/libplasma-6.0.5.tar.xz",
-                    "sha256": "d35765c039901e739b014ff92640c6cd4a4d8524c26fe4d00bd134d16ab0ccd2",
+                    "url": "https://download.kde.org/stable/plasma/6.1.0/libplasma-6.1.0.tar.xz",
+                    "sha256": "ed25f04ca68a040964b7bcdb043cb70beebdf8780c63026a5b2cb13c6bbe753b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
@@ -86,8 +86,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.05.0/src/kweather-24.05.0.tar.xz",
-                    "sha256": "faff3add4005d04c338847ae9b7a1bc2e5c6d5f45b6f5a96ec806da91b9e4bbe",
+                    "url": "https://download.kde.org/stable/release-service/24.05.1/src/kweather-24.05.1.tar.xz",
+                    "sha256": "cba0ffe03ad48e8809a7e5f2560b109bc4de0db22f0b6b7a2a7f91210edef153",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 241424,
