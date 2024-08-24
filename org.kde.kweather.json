@@ -23,13 +23,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kweathercore/0.8.0/kweathercore-0.8.0.tar.xz",
-                    "sha256": "9bcac13daf98705e2f0d5b06b21a1a8694962078fce1bf620dbbc364873a0efe",
+                    "url": "https://download.kde.org/stable/release-service/24.08.0/src/kweathercore-24.08.0.tar.xz",
+                    "sha256": "ada469144f2cd75f70c6d474b965e3d5cf49c80c4f3270fad36399889126b1b2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 232018,
                         "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/kweathercore/$version/kweathercore-$version.tar.xz"
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kweathercore-$version.tar.xz"
                     }
                 }
             ]
