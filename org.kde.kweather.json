@@ -23,8 +23,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/kweathercore-24.08.1.tar.xz",
-                    "sha256": "16e7520d2ff03cdc549d7fb1b18f9b4ee505f8aa59892663b966bcad02ac8621",
+                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/kweathercore-24.08.2.tar.xz",
+                    "sha256": "3e390cc98835952360c6416fbdeeed75b873cc2dbfc0cb5fdc2c72b93b67fb18",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -65,8 +65,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.4.0.tar.xz",
-                    "sha256": "56e3ceb52055b5603320ea08b27d3673d32a391a8d58646d998227d8b51f0a93",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.5.0.tar.xz",
+                    "sha256": "f9dfd191022b633ea3348f84730d7158a159dfe49668dba0a9e9bd678ac44e54",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
@@ -86,8 +86,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/kweather-24.08.1.tar.xz",
-                    "sha256": "79f56697b4f3c897b6b602e8e869edabe2ddd15cbc9d3d956128390252d2d802",
+                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/kweather-24.08.2.tar.xz",
+                    "sha256": "f68b0717a0a70700bda07c068711f68181c494aaa4be61547d781a7566f2e765",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
