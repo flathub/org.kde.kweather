@@ -23,8 +23,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/kweathercore-24.08.2.tar.xz",
-                    "sha256": "3e390cc98835952360c6416fbdeeed75b873cc2dbfc0cb5fdc2c72b93b67fb18",
+                    "url": "https://download.kde.org/stable/release-service/24.08.3/src/kweathercore-24.08.3.tar.xz",
+                    "sha256": "9c80673855cb7fa67b5552753ffb8039672a36620fb790690c40bb1c06fd3dfd",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -86,8 +86,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/kweather-24.08.2.tar.xz",
-                    "sha256": "f68b0717a0a70700bda07c068711f68181c494aaa4be61547d781a7566f2e765",
+                    "url": "https://download.kde.org/stable/release-service/24.08.3/src/kweather-24.08.3.tar.xz",
+                    "sha256": "37a0a09d4953cf4c279d1710ecae73762166d8ed54b8bb801cc1770497b5bd4d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
