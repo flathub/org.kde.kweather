@@ -12,6 +12,13 @@
         "--device=dri",
         "--system-talk-name=org.freedesktop.GeoClue2"
     ],
+    "cleanup": [
+        "/include",
+        "/lib/cmake",
+        "/mkspecs",
+        "/share/plasma",
+        "/share/qlogging-categories6"
+    ],
     "modules": [
         {
             "name": "kweathercore",
