@@ -30,8 +30,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/kweathercore-25.12.2.tar.xz",
-                    "sha256": "56ab998dbb041d071f8a9df4237cc7e5d1e6e57bc9a73441447b690f9efc9113",
+                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kweathercore-25.12.3.tar.xz",
+                    "sha256": "83cda4953ac7ac3f3473ce053e3d13b36c57dc0e198bc176663fdd30ba4b0945",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -51,8 +51,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/6.5.5/libplasma-6.5.5.tar.xz",
-                    "sha256": "7d88f9bd0f90b90f4d2290cd8fa0f37e7af3810a0ed58c7d226a02838ab8a71a",
+                    "url": "https://download.kde.org/stable/plasma/6.6.2/libplasma-6.6.2.tar.xz",
+                    "sha256": "5e6b889bce201acf7d46bbff1970e6f84a711f44b207fe103aaf37a244da994b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
@@ -72,8 +72,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/kweather-25.12.2.tar.xz",
-                    "sha256": "dafedc71696ad426b40770c51eddfa96e4507eb84e45f492029f55f8e5672e7f",
+                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kweather-25.12.3.tar.xz",
+                    "sha256": "70040d430bc0973aeaad38f1391e7c06753ad3489ed1b62ddb26d41745495894",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
