@@ -75,6 +75,7 @@
                     "url": "https://download.kde.org/stable/release-service/25.12.3/src/kweather-25.12.3.tar.xz",
                     "sha256": "70040d430bc0973aeaad38f1391e7c06753ad3489ed1b62ddb26d41745495894",
                     "x-checker-data": {
+                        "is-main-source": true,
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
