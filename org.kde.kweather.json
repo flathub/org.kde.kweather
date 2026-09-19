@@ -44,7 +44,8 @@
         {
             "name": "libplasma",
             "config-opts": [
-                "-DBUILD_TESTING=OFF"
+                "-DBUILD_TESTING=OFF",
+                "-DENABLE_ACTIVITIES=OFF"
             ],
             "buildsystem": "cmake-ninja",
             "builddir": true,
