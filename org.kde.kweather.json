@@ -42,31 +42,11 @@
             ]
         },
         {
-            "name": "libplasma",
-            "config-opts": [
-                "-DBUILD_TESTING=OFF",
-                "-DENABLE_ACTIVITIES=OFF"
-            ],
-            "buildsystem": "cmake-ninja",
-            "builddir": true,
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/6.7.5/libplasma-6.7.5.tar.xz",
-                    "sha256": "27b28823254aa489c094c40a314ce1575fd7906eeb521e636bb8fd2dc2981f2f",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 8761,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/plasma/$version/libplasma-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
             "name": "kweather",
             "buildsystem": "cmake-ninja",
             "config-opts": [
+                "-DBUILD_KRUNNER=OFF",
+                "-DBUILD_PLASMOID=OFF",
                 "-DBUILD_TESTING=OFF",
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
             ],
